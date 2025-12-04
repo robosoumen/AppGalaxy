@@ -31,14 +31,10 @@ const router = createBrowserRouter([
             path:'/allApp',
             element:<AllApp></AllApp>
         },
-        // {
-        //     path:'/errorApp',
-        //     element:<ErrorApp></ErrorApp>
-        // },
-        // {
-        //     path:'/errorPage',
-        //     element:<ErrorPage></ErrorPage>
-        // },
+        {
+            path:'/appDetails/:id',
+            element:<AppDetails></AppDetails>
+        },
     ]
   },
 ]);
