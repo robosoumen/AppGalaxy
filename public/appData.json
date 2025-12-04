@@ -1,0 +1,382 @@
+[
+  {
+    "image": "https://logo.clearbit.com/instagram.com",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "id": 1,
+    "description": "A popular social media platform for sharing photos, stories, and videos.",
+    "size": 185,
+    "reviews": 54000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "officialWebsite": "https://www.instagram.com",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 40000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/facebook.com",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "id": 2,
+    "description": "A global social platform to connect with friends and family.",
+    "size": 245,
+    "reviews": 87000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "officialWebsite": "https://www.facebook.com",
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 3500000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 11000000 },
+      { "name": "5 star", "count": 62000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/whatsapp.com",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms",
+    "id": 3,
+    "description": "Instant messaging, voice and video calling with end-to-end encryption.",
+    "size": 120,
+    "reviews": 166000000,
+    "ratingAvg": 4.8,
+    "downloads": 10000000000,
+    "officialWebsite": "https://www.whatsapp.com",
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 136000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/youtube.com",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 4,
+    "description": "The largest platform for watching and sharing online videos.",
+    "size": 150,
+    "reviews": 150000000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000000,
+    "officialWebsite": "https://www.youtube.com",
+    "ratings": [
+      { "name": "1 star", "count": 6000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 122000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/tiktok.com",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 5,
+    "description": "A popular platform for creating and sharing short entertainment videos.",
+    "size": 195,
+    "reviews": 67000000,
+    "ratingAvg": 4.4,
+    "downloads": 3000000000,
+    "officialWebsite": "https://www.tiktok.com",
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 50000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/amazon.in",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon",
+    "id": 6,
+    "description": "The world's largest online shopping and delivery service platform.",
+    "size": 190,
+    "reviews": 82000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "officialWebsite": "https://www.amazon.in",
+    "ratings": [
+      { "name": "1 star", "count": 6000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 59000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/paytm.com",
+    "title": "Paytm",
+    "companyName": "One97 Communications",
+    "id": 7,
+    "description": "A digital payments platform for recharges, bills and UPI transactions.",
+    "size": 110,
+    "reviews": 45000000,
+    "ratingAvg": 4.2,
+    "downloads": 600000000,
+    "officialWebsite": "https://www.paytm.com",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1400000 },
+      { "name": "3 star", "count": 2400000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 34000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/phonepe.com",
+    "title": "PhonePe",
+    "companyName": "PhonePe Pvt. Ltd.",
+    "id": 8,
+    "description": "A fast and secure UPI payment app for digital transactions and bills.",
+    "size": 108,
+    "reviews": 30000000,
+    "ratingAvg": 4.7,
+    "downloads": 450000000,
+    "officialWebsite": "https://www.phonepe.com",
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 5200000 },
+      { "name": "5 star", "count": 21000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/google.com",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 9,
+    "description": "Navigation and location services for travel and real-time directions.",
+    "size": 130,
+    "reviews": 98000000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000000,
+    "officialWebsite": "https://maps.google.com",
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 78000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/zoom.us",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 10,
+    "description": "A powerful platform for video meetings, remote classes and conferencing.",
+    "size": 146,
+    "reviews": 30000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "officialWebsite": "https://zoom.us",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 14500000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/twitter.com",
+    "title": "Twitter (X)",
+    "companyName": "X Corp",
+    "id": 11,
+    "description": "A social platform for news updates, trending topics and public discussions.",
+    "size": 120,
+    "reviews": 50000000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "officialWebsite": "https://twitter.com",
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 31000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/google.com",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 12,
+    "description": "Cloud storage to save, share and access files anywhere.",
+    "size": 160,
+    "reviews": 35000000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "officialWebsite": "https://drive.google.com",
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 25000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/netflix.com",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 13,
+    "description": "Watch movies, web series and TV shows online anytime.",
+    "size": 240,
+    "reviews": 82000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "officialWebsite": "https://www.netflix.com",
+    "ratings": [
+      { "name": "1 star", "count": 3500000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 66000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/spotify.com",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 14,
+    "description": "The most popular platform for streaming music and podcasts.",
+    "size": 98,
+    "reviews": 42000000,
+    "ratingAvg": 4.7,
+    "downloads": 1000000000,
+    "officialWebsite": "https://www.spotify.com",
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 30000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/snapchat.com",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 15,
+    "description": "A multimedia messaging app to share instant photos and video snaps.",
+    "size": 225,
+    "reviews": 33000000,
+    "ratingAvg": 4.2,
+    "downloads": 2000000000,
+    "officialWebsite": "https://www.snapchat.com",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 21000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/ola.in",
+    "title": "Ola",
+    "companyName": "ANI Technologies Pvt",
+    "id": 16,
+    "description": "Ride-booking service for cabs, autos and rentals.",
+    "size": 90,
+    "reviews": 18000000,
+    "ratingAvg": 4.1,
+    "downloads": 100000000,
+    "officialWebsite": "https://www.olacabs.com",
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 14000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/ubereats.com",
+    "title": "Uber Eats",
+    "companyName": "Uber Technologies",
+    "id": 17,
+    "description": "Order food and groceries delivered to your doorstep.",
+    "size": 160,
+    "reviews": 25000000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "officialWebsite": "https://www.ubereats.com",
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1400000 },
+      { "name": "4 star", "count": 3100000 },
+      { "name": "5 star", "count": 19000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/flipkart.com",
+    "title": "Flipkart",
+    "companyName": "Flipkart Pvt Ltd",
+    "id": 18,
+    "description": "One of India's leading e-commerce platforms for shopping.",
+    "size": 140,
+    "reviews": 53000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "officialWebsite": "https://www.flipkart.com",
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 2300000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 37000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/microsoft.com",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft",
+    "id": 19,
+    "description": "A collaboration app for team communication, meetings and file sharing.",
+    "size": 210,
+    "reviews": 28000000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "officialWebsite": "https://www.microsoft.com/microsoft-teams",
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1600000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 21000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/swiggy.com",
+    "title": "Swiggy",
+    "companyName": "Swiggy Pvt Ltd",
+    "id": 20,
+    "description": "Food delivery service offering thousands of restaurants to choose from.",
+    "size": 135,
+    "reviews": 37000000,
+    "ratingAvg": 4.6,
+    "downloads": 200000000,
+    "officialWebsite": "https://www.swiggy.com",
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 30000000 }
+    ]
+  }
+]
