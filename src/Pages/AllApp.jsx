@@ -13,6 +13,7 @@ const AllApp = () => {
 
     // console.log(search)
     return (
+        
         <div>
             <div className="flex justify-between items-center py-5 text-2xl">
             <h1 className="font-bold">({searchedApps.length})Apps Found</h1>

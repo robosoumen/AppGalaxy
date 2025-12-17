@@ -1,6 +1,12 @@
 import React from 'react';
 import { useParams } from 'react-router';
 import useData from '../Hooks/useData';
+import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from 'recharts';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
+
 
 const AppDetails = () => {
     const {id} = useParams();
@@ -10,23 +16,107 @@ const AppDetails = () => {
     const input = data.find(p => String(p.id) === id)
     if (loading) return <p>Loading.....</p>
     if (error) return <p>Loading.....</p>
-    console.log(input)
-    const {companyName, description, downloads, image, officialWebsite, ratingAvg, reviews, size, title, ratings} = input;
+    // console.log(input)
+    const {companyName, description, downloads, image, officialWebsite, ratingAvg, reviews, size, title, ratings} = input || {};
+
+    const handleAddToInstall = () => {
+        const existingList = JSON.parse(localStorage.getItem('install'))
+
+        let updatedList = [];
+        if(existingList) {
+            const isDuplicate = existingList.some(p => p.id === input.id);
+            if(isDuplicate) return alert('this apps is already exist')
+
+            updatedList = [...existingList, input]
+        }else{
+            updatedList.push(input)
+        }
+        localStorage.setItem('install',JSON.stringify(updatedList))
+    }
     return (
-       <div className="card card-side bg-base-100 shadow-sm">
-            <figure>
-                <img
-                src={image}
-                alt="Movie" />
-            </figure>
-            <div className="card-body">
-                <h2 className="card-title">{title}</h2>
-                <p>{description}</p>
-                <div className="card-actions justify-end">
-                <button className="btn btn-primary">Watch</button>
+        <div>
+            <div className='flex justify-around'>
+                <div>
+                    <figure>
+                        <img className='h-40 w-40'
+                        src={image}
+                        alt="Movie" />
+                    </figure>
+                </div>
+                <div>
+                    <div>
+                        <h1 className='font-bold'>SmPlan:ToDo List With Reminder</h1>
+                        <h1>Developed by: <span className='text-blue-500'>{companyName}</span></h1>
+                    </div>
+                    <div className='flex gap-10'>
+                        <div>
+                            <FontAwesomeIcon icon={faDownload} />
+                            <p>Downloads</p>
+                            <h1>8M</h1>
+                        </div>
+                        <div>
+                           <FontAwesomeIcon icon={faStar} />
+                            <p>Average Ratings</p>
+                            <h1>4.9</h1>
+                        </div>
+                        <div>
+                            <FontAwesomeIcon icon={faThumbsUp} />
+                            <p>Total Reviews</p>
+                            <h1>54K</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <button className='btn btn-primary' onClick={handleAddToInstall}>Install Now{size}mb</button>
+                    </div>
                 </div>
             </div>
+            <div>
+                <h1>Ratings</h1>
+               <div>
+                    <ResponsiveContainer width='100%' aspect={3}>
+                        <BarChart data={ratings} width={400} height={400}>
+                            <XAxis dataKey='name'/>
+                            <YAxis />
+                            <Bar dataKey='count' fill='red'/>
+                        </BarChart>
+                    </ResponsiveContainer>
+               </div>
+            </div>
+            <div>
+                <p className='font-bold'>Description</p>
+                <h1>{description}</h1>
+            </div>
         </div>
+    //    <div className="card card-side bg-base-100 shadow-sm grid">
+            
+    //         {/* <figure>
+    //             <img className='h-40 w-40'
+    //             src={image}
+    //             alt="Movie" />
+    //         </figure> */}
+    //         {/* <div className="card-body">
+    //             <h2 className="card-title">{title}</h2>
+    //             <p>{description}</p>
+    //             <div className="card-actions justify-end">
+    //             <button onClick={handleAddToInstall} className="btn btn-primary">Install Now</button>
+    //             </div>
+    //         </div> */}
+
+    //         {/* chart */}
+    //          <div>
+    //            <h1>Ratings</h1>
+    //            <div>
+    //                 <ResponsiveContainer width='100%' aspect={3}>
+    //                     <BarChart data={ratings} width={400} height={400}>
+    //                         <XAxis dataKey='name'/>
+    //                         <YAxis />
+    //                         <Bar dataKey='count' fill='red'/>
+    //                     </BarChart>
+    //                 </ResponsiveContainer>
+    //            </div>
+    //          </div>
+    //     </div>
+        
     );
 };
 
