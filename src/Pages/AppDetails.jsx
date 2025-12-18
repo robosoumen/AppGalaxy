@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
+import { toast } from 'react-toastify';
 
 
 const AppDetails = () => {
@@ -25,7 +26,7 @@ const AppDetails = () => {
         let updatedList = [];
         if(existingList) {
             const isDuplicate = existingList.some(p => p.id === input.id);
-            if(isDuplicate) return alert('this apps is already exist')
+            if(isDuplicate) return toast('this apps is already exist')
 
             updatedList = [...existingList, input]
         }else{
