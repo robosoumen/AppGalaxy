@@ -21,9 +21,6 @@ const AppCard = ({data}) => {
                 {downloads}</h1>
                 <h2>{ratingAvg}</h2>
             </div>
-            {/* <div className="card-actions justify-end">
-            <Link to={`/appDetails/${id}`} className="btn btn-primary">View Details</Link>
-            </div> */}
         </div>
     </Link>
     );

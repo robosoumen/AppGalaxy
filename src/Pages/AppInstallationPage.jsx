@@ -51,18 +51,22 @@ const AppInstallationPage = () => {
            <div className="space-y-3">
             {
                 sortedItem.map(p => (
-                     <div key={p.id} className="card card-side bg-base-100 shadow-sm">
+                     <div key={p.id} className="card card-side bg-base-100 shadow-sm  ">
                         <figure>
-                            <img className="w-40 h-28 object-cover"
+                            <img className="w-40 h-28 object-cover px-3"
                             src={p.image}
                             alt={p.title} />
                         </figure>
                         <div className="card-body">
                             <h2 className="card-title">{p.title}</h2>
                             <p>{p.description}</p>
+                            <div className='flex gap-1'>
+                                <p>Size : {p.size}</p>
+                                <p>Downloads - {p.downloads}</p>
+                                <p>Ratings - {p.ratingAvg}</p>
+                            </div>
                             <div className="card-actions justify-end">
                                 <div className='flex justify-center gap-5 items-center'>
-                                    <p>Size : {p.size}</p>
                                     <button onClick={() => handleRemove(p.id)} className="btn btn-primary">Uninstall</button>
                                 </div>
                             </div>
