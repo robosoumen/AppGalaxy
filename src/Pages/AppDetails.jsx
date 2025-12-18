@@ -35,7 +35,7 @@ const AppDetails = () => {
     }
     return (
         <div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  '>
                 <div>
                     <figure>
                         <img className='h-40 w-40'
@@ -43,12 +43,12 @@ const AppDetails = () => {
                         alt="Movie" />
                     </figure>
                 </div>
-                <div>
-                    <div>
+                <div className=''>
+                    <div className='py-4'>
                         <h1 className='font-bold'>SmPlan:ToDo List With Reminder</h1>
                         <h1>Developed by: <span className='text-blue-500'>{companyName}</span></h1>
                     </div>
-                    <div className='flex gap-10'>
+                    <div className='flex gap-10 py-5'>
                         <div>
                             <FontAwesomeIcon icon={faDownload} />
                             <p>Downloads</p>
@@ -65,7 +65,7 @@ const AppDetails = () => {
                             <h1>{reviews}</h1>
                         </div>
                     </div>
-                    <div>
+                    <div className='py-3'>
                         <button className='btn bg-green-600 text-white' onClick={handleAddToInstall}>Install Now({size}mb)</button>
                     </div>
                 </div>
