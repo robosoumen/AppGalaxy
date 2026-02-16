@@ -42,7 +42,7 @@ const AppInstallationPage = () => {
                 </h1>
                <label className="form-control w-full max-w-xs">
                  <select className="select select-bordered" value={sortOrder} onChange={e => setSortOrder(e.target.value)}>
-                    <option value="none">Sort by Price</option>
+                    <option value="none">Sort by Size</option>
                     <option value="size-asc">Low-&gt;High</option>
                     <option value="size-desc">High-&gt;Low</option>
                 </select>
